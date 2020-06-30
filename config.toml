@@ -36,11 +36,12 @@ summaryLength = 30
     meta_og_title = "Azure Static Web Apps Test"
     meta_og_type = "website"
     meta_og_url = "https://delightful-moss-0ff592e00.azurestaticapps.net/"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    #meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
     #meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
     #meta_twitter_card = "summary"
     #meta_twitter_site = "@zerostaticio"
     #meta_twitter_creator = "@zerostaticio"
+    meta_og_image = "https://live.staticflickr.com/65535/49302777923_22839eb1de_z.jpg"
 
   [params.logo]
       mobile = "/images/logo-mobile.svg"
