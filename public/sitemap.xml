@@ -3,21 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://delightful-moss-0ff592e00.azurestaticapps.net/</loc>
+    <loc>/</loc>
     <lastmod>2020-06-30T22:37:43+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://delightful-moss-0ff592e00.azurestaticapps.net/test-contents/</loc>
+    <loc>/test-contents/</loc>
     <lastmod>2020-06-30T22:37:43+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://delightful-moss-0ff592e00.azurestaticapps.net/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://delightful-moss-0ff592e00.azurestaticapps.net/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
