@@ -6,9 +6,24 @@
     <description>Recent content on Azure Static Web App Preview Test</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jun 2020 22:37:43 +0900</lastBuildDate>
     
 	<atom:link href="https://delightful-moss-0ff592e00.azurestaticapps.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Test Contents</title>
+      <link>https://delightful-moss-0ff592e00.azurestaticapps.net/test-contents/</link>
+      <pubDate>Tue, 30 Jun 2020 22:37:43 +0900</pubDate>
+      
+      <guid>https://delightful-moss-0ff592e00.azurestaticapps.net/test-contents/</guid>
+      <description>Azure Static Web Apps Preview Preview版を試しに使ってみたよ。
+お試しはチュートリアルが公式にあるのでそのまんま実施してみた感じ。（テーマはちょっと面白そうなのをHugo Themesから持ってきた。
+コンテンツはローカル生成 コンテンツを生成するHugo環境を何処かで回すCI/CDをする訳ではなく、あくまでローカルで作成したstaticファイルをgitにpushした契機にAzure側へコンテンツがデリバリされるだけ。なので、手元にHugo環境を置きたくないって人はもうひと手間必要。
+それでも魅力 それでもAzureが用意するCDNが使えるのは強力すぎやん？ちょっと期待しちゃう。
+Preview PreviewではあくまでPreviewなので自ドメインでの運用は出来なさそう。かつ100MBまでと言う容量制限もあるので、自前のblogでお試しするのは諦めて、こうやってお試しコンテンツをこさえてみた感じ。
+期待 値段もまだ出てきてはいないけれど、Staticなサイトって事もあるのでリーズナブルに提供されそう。それ次第では利用してみてもいいかなぁ、と思う。</description>
+    </item>
     
   </channel>
 </rss>
