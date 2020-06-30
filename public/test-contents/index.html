@@ -1,86 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Test Contents - Azure Static Web App Preview Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test Contents</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  <!-- plugins -->
   
-  <link rel="icon" href="/favicon.png">
+  <link rel="stylesheet" href="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/themify-icons/themify-icons.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://delightful-moss-0ff592e00.azurestaticapps.net/scss/style.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://delightful-moss-0ff592e00.azurestaticapps.net/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://delightful-moss-0ff592e00.azurestaticapps.net/images/favicon.png" type="image/x-icon">
 
   
-  
-  <link rel="stylesheet" href="/css/style.min.aad43d4ecb69a264f2539b89d7f779d5f3cdff22e7585fe5fc3c77272f1c2696.css">
-  
+  <meta property="og:title" content="Test Contents" />
+<meta property="og:description" content="Azure Static Web Apps Preview Preview版を試しに使ってみたよ。
+お試しはチュートリアルが公式にあるのでそのまんま実施してみた感じ。（テーマはちょっと面白そうなのをHugo Themesから持ってきた。
+コンテンツはローカル生成 コンテンツを生成するHugo環境を何処かで回すCI/CDをする訳ではなく、あくまでローカルで作成したstaticファイルをgitにpushした契機にAzure側へコンテンツがデリバリされるだけ。なので、手元にHugo環境を置きたくないって人はもうひと手間必要。
+それでも魅力 それでもAzureが用意するCDNが使えるのは強力すぎやん？ちょっと期待しちゃう。
+Preview PreviewではあくまでPreviewなので自ドメインでの運用は出来なさそう。かつ100MBまでと言う容量制限もあるので、自前のblogでお試しするのは諦めて、こうやってお試しコンテンツをこさえてみた感じ。
+期待 値段もまだ出てきてはいないけれど、Staticなサイトって事もあるのでリーズナブルに提供されそう。それ次第では利用してみてもいいかなぁ、と思う。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://delightful-moss-0ff592e00.azurestaticapps.net/test-contents/" />
+<meta property="article:published_time" content="2020-06-30T22:37:43+09:00" />
+<meta property="article:modified_time" content="2020-06-30T22:37:43+09:00" />
 
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
   
-
-</head>
-
-<body class='page page-default-single'>
-  <div id="main-menu-mobile" class="main-menu-mobile">
-  <ul>
-    
-    
-    <li class="menu-item-home">
-      <a href="/">
-        <span>Home</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-docs">
-      <a href="/test-contents/">
-        <span>Docs</span>
-      </a>
-    </li>
-    
-  </ul>
 </div>
-  <div class="wrapper">
-    <div class='header'>
-  <div class="container">
-    <div class="logo">
-      <a href="/"><img alt="Logo" src="/images/logo.svg" /></a>
-    </div>
-    <div class="logo-mobile">
-      <a href="/"><img alt="Logo" src="/images/logo-mobile.svg" /></a>
-    </div>
-    <div id="main-menu" class="main-menu">
-  <ul>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="py-4">
+  <div class="container-fluid">
     
-    
-    <li class="menu-item-home">
-      <a href="/">
-        <span>Home</span>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="/">
+        
+        <img class="img-fluid" width="150px" src="https://delightful-moss-0ff592e00.azurestaticapps.net/images/logo.png" alt="Azure Static Web Apps TEST">
+        
       </a>
-    </li>
-    
-    <li class="menu-item-docs">
-      <a href="/test-contents/">
-        <span>Docs</span>
-      </a>
-    </li>
-    
-  </ul>
-</div>
-    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
-  <span class="hamburger-box">
-    <span class="hamburger-inner"></span>
-  </span>
-</button>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://delightful-moss-0ff592e00.azurestaticapps.net/">Home</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://delightful-moss-0ff592e00.azurestaticapps.net/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://delightful-moss-0ff592e00.azurestaticapps.net/categories/nature/">Category</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://delightful-moss-0ff592e00.azurestaticapps.net/contact">Contact</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://delightful-moss-0ff592e00.azurestaticapps.net/privacy-policy">Privacy Policy</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search px-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="/search" class="h-100">
+              <input class="search-box pl-4" id="search-query" name="s" type="search" placeholder="Type and hit enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
   </div>
-</div>
+</header>
+<!-- /navigation -->
 
+<section>
+  <div class="container-fluid">
+    <div class="post">
+      <img src="https://delightful-moss-0ff592e00.azurestaticapps.net/" class="img-fluid w-100" alt="Test Contents">
+      <div class="post-content">
+        <div class="post-date">
+          <span>30</span>
+          <span>Jun</span>
+        </div>
+        <h2 class="post-title">Test Contents</h2>
+      </div>
+    </div>
+  </div>
+</section>
 
-    
-    
-
-    
-    
-<h1 class="title">Test Contents</h1>
-<div class="content ">
-  <h1 id="azure-static-web-apps-preview">Azure Static Web Apps Preview</h1>
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h1 class="mb-4">Test Contents</h1>
+        <div class="content"><h1 id="azure-static-web-apps-preview">Azure Static Web Apps Preview</h1>
 <p>Preview版を試しに使ってみたよ。</p>
 <p>お試しは<a href="https://docs.microsoft.com/ja-jp/azure/static-web-apps/publish-hugo">チュートリアル</a>が公式にあるのでそのまんま実施してみた感じ。（テーマはちょっと面白そうなのを<a href="https://themes.gohugo.io/">Hugo Themes</a>から持ってきた。</p>
 <h2 id="コンテンツはローカル生成">コンテンツはローカル生成</h2>
@@ -91,43 +145,55 @@
 <p>PreviewではあくまでPreviewなので自ドメインでの運用は出来なさそう。かつ100MBまでと言う容量制限もあるので、自前のblogでお試しするのは諦めて、こうやってお試しコンテンツをこさえてみた感じ。</p>
 <h1 id="期待">期待</h1>
 <p>値段もまだ出てきてはいないけれど、Staticなサイトって事もあるのでリーズナブルに提供されそう。それ次第では利用してみてもいいかなぁ、と思う。</p>
-
-</div>
 </div>
 
-    
-  </div>
-
-  <div class="sub-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="sub-footer-inner">
-          <ul>
-            <li class="zerostatic"><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
+        <div class="text-center mt-5">
+          <ul class="list-inline post-meta d-inline-block mr-4">
+            <li class="list-inline-item"><i class="ti-tag"></i></li>
+            
           </ul>
+          <span><i class="ti-user mr-2"></i><a
+              href="/author//"></a></span>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-  
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/scripts.min.1237ff71925bb8625c97a9af8db4c54525258bedfd7c47493daaff723bea755e.js"></script>
-  
-
-  
-  
-  
-    
-  
+</section>
 
 
+
+<footer class="py-4">
+  <div class="container text-center">
+    <p>Keruru</p>
+  </div>
+</footer>
+
+<!-- Search index -->
+
+<script>
+  var indexURL = "https://delightful-moss-0ff592e00.azurestaticapps.net/index.json"
+</script>
+
+
+
+<!-- JS Plugins -->
+
+<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/search/fuse.min.js"></script>
+
+<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/search/mark.js"></script>
+
+<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/search/search.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/js/script.min.js"></script>
+
+<!-- google analitycs -->
 </body>
 
 </html>

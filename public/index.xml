@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Azure Static Web App Preview Test</title>
-    <link>/</link>
-    <description>Recent content on Azure Static Web App Preview Test</description>
+    <title>Azure Static Web Apps TEST</title>
+    <link>https://delightful-moss-0ff592e00.azurestaticapps.net/</link>
+    <description>Recent content on Azure Static Web Apps TEST</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>jp</language>
     <lastBuildDate>Tue, 30 Jun 2020 22:37:43 +0900</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://delightful-moss-0ff592e00.azurestaticapps.net/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test Contents</title>
-      <link>/test-contents/</link>
+      <link>https://delightful-moss-0ff592e00.azurestaticapps.net/test-contents/</link>
       <pubDate>Tue, 30 Jun 2020 22:37:43 +0900</pubDate>
       
-      <guid>/test-contents/</guid>
+      <guid>https://delightful-moss-0ff592e00.azurestaticapps.net/test-contents/</guid>
       <description>Azure Static Web Apps Preview Preview版を試しに使ってみたよ。
 お試しはチュートリアルが公式にあるのでそのまんま実施してみた感じ。（テーマはちょっと面白そうなのをHugo Themesから持ってきた。
 コンテンツはローカル生成 コンテンツを生成するHugo環境を何処かで回すCI/CDをする訳ではなく、あくまでローカルで作成したstaticファイルをgitにpushした契機にAzure側へコンテンツがデリバリされるだけ。なので、手元にHugo環境を置きたくないって人はもうひと手間必要。

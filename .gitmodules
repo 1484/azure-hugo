@@ -4,3 +4,12 @@
 [submodule "themes/hugo-whisper-theme"]
 	path = themes/hugo-whisper-theme
 	url = https://github.com/jugglerx/hugo-whisper-theme.git
+[submodule "themes/persian-hugo"]
+	path = themes/persian-hugo
+	url = https://github.com/themefisher/persian-hugo.git
+[submodule "themes/persian"]
+	path = themes/persian
+	url = https://github.com/themefisher/persian-hugo.git
+[submodule "themes/m10c"]
+	path = themes/m10c
+	url = https://github.com/vaga/hugo-theme-m10c.git

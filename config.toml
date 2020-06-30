@@ -1,49 +1,17 @@
-languageCode = "jp"
-title = "Azure Static Web App Preview Test"
-baseURL = "/"
-theme = "hugo-whisper-theme"
-
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses = true
-
-# Controls how many words are printed in the content summary on the docs homepage.
-# See https://gohugo.io/content-management/summaries/
-summaryLength = 30
-
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-
-[[menu.main]]
-    name = "Docs"
-    url = "/test-contents/"
-    weight = 2
+######################## default configuration ####################
+baseURL = "https://delightful-moss-0ff592e00.azurestaticapps.net/"
+title = "Azure Static Web Apps TEST"
+languageName = "jp"
+theme = "m10c"
+paginate = 5
 
 [params]
-  google_analytics_id=""
-  homepage_button_link = '/test-contents'
-  homepage_button_text = 'Read The Docs'
-  homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
-  homepage_image = '/images/terminal.gif'
-
-  ## You can enable to add anchor links to header elements
-  # enable_anchor_link = true
-
-  [params.homepage_meta_tags]
-    meta_description = "Azure Static Web Apps Preview TestSite"
-    meta_og_title = "Azure Static Web Apps Test"
-    meta_og_type = "website"
-    meta_og_url = "https://delightful-moss-0ff592e00.azurestaticapps.net/"
-    #meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
-    #meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
-    #meta_twitter_card = "summary"
-    #meta_twitter_site = "@zerostaticio"
-    #meta_twitter_creator = "@zerostaticio"
-    meta_og_image = "https://live.staticflickr.com/65535/49302777923_22839eb1de_z.jpg"
-
-  [params.logo]
-      mobile = "/images/logo-mobile.svg"
-      standard  = "/images/logo.svg"
+  author = "Keruru"
+  description = "ここはAzure Static Web Appsをお試ししているサイトです。"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/1484"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/keruru"
 
