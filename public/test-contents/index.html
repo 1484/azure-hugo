@@ -1,34 +1,25 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Test Contents // Azure Static Web Apps TEST</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.69.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Keruru" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://delightful-moss-0ff592e00.azurestaticapps.net/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
 
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Test Contents"/>
+<meta name="twitter:description" content="Azure Static Web Apps Preview Preview版を試しに使ってみたよ。
+お試しはチュートリアルが公式にあるのでそのまんま実施してみた感じ。（テーマはちょっと面白そうなのをHugo Themesから持ってきた。
+コンテンツはローカル生成 コンテンツを生成するHugo環境を何処かで回すCI/CDをする訳ではなく、あくまでローカルで作成したstaticファイルをgitにpushした契機にAzure側へコンテンツがデリバリされるだけ。なので、手元にHugo環境を置きたくないって人はもうひと手間必要。
+それでも魅力 それでもAzureが用意するCDNが使えるのは強力すぎやん？ちょっと期待しちゃう。
+Preview PreviewではあくまでPreviewなので自ドメインでの運用は出来なさそう。かつ100MBまでと言う容量制限もあるので、自前のblogでお試しするのは諦めて、こうやってお試しコンテンツをこさえてみた感じ。
+期待 値段もまだ出てきてはいないけれど、Staticなサイトって事もあるのでリーズナブルに提供されそう。それ次第では利用してみてもいいかなぁ、と思う。"/>
 
-<head>
-  <meta charset="utf-8">
-  <title>Test Contents</title>
-
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is meta description">
-  <meta name="author" content="Themefisher">
-  <meta name="generator" content="Hugo 0.68.3" />
-
-  <!-- plugins -->
-  
-  <link rel="stylesheet" href="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/bootstrap/bootstrap.min.css">
-  
-  <link rel="stylesheet" href="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/themify-icons/themify-icons.css">
-  
-
-  <!-- Main Stylesheet -->
-  
-  <link rel="stylesheet" href="https://delightful-moss-0ff592e00.azurestaticapps.net/scss/style.css" media="screen">
-
-  <!--Favicon-->
-  <link rel="shortcut icon" href="https://delightful-moss-0ff592e00.azurestaticapps.net/images/favicon.png" type="image/x-icon">
-  <link rel="icon" href="https://delightful-moss-0ff592e00.azurestaticapps.net/images/favicon.png" type="image/x-icon">
-
-  
-  <meta property="og:title" content="Test Contents" />
+    <meta property="og:title" content="Test Contents" />
 <meta property="og:description" content="Azure Static Web Apps Preview Preview版を試しに使ってみたよ。
 お試しはチュートリアルが公式にあるのでそのまんま実施してみた感じ。（テーマはちょっと面白そうなのをHugo Themesから持ってきた。
 コンテンツはローカル生成 コンテンツを生成するHugo環境を何処かで回すCI/CDをする訳ではなく、あくまでローカルで作成したstaticファイルをgitにpushした契機にAzure側へコンテンツがデリバリされるだけ。なので、手元にHugo環境を置きたくないって人はもうひと手間必要。
@@ -41,100 +32,49 @@ Preview PreviewではあくまでPreviewなので自ドメインでの運用は�
 <meta property="article:modified_time" content="2020-06-30T22:37:43+09:00" />
 
 
-</head><body>
-<!-- preloader start -->
-<div class="preloader">
-  
-</div>
-<!-- preloader end -->
-<!-- navigation -->
-<header class="py-4">
-  <div class="container-fluid">
-    
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="/">
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://delightful-moss-0ff592e00.azurestaticapps.net/"><img class="app-header-avatar" src="/avatar.jpg" alt="Keruru" /></a>
+      <h1>Azure Static Web Apps TEST</h1>
+      <p>ここはAzure Static Web Appsをお試ししているサイトです。</p>
+      <div class="app-header-social">
         
-        <img class="img-fluid" width="150px" src="https://delightful-moss-0ff592e00.azurestaticapps.net/images/logo.png" alt="Azure Static Web Apps TEST">
+          <a target="_blank" href="https://github.com/1484" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
         
-      </a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
-        <i class="ti-menu"></i>
-      </button>
-
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav ml-auto">
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://delightful-moss-0ff592e00.azurestaticapps.net/">Home</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://delightful-moss-0ff592e00.azurestaticapps.net/about">About</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://delightful-moss-0ff592e00.azurestaticapps.net/categories/nature/">Category</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://delightful-moss-0ff592e00.azurestaticapps.net/contact">Contact</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://delightful-moss-0ff592e00.azurestaticapps.net/privacy-policy">Privacy Policy</a>
-          </li>
-          
-          
-        </ul>
-
-        
-        <!-- search -->
-        <div class="search px-4">
-          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
-          <div class="search-wrapper">
-            <form action="/search" class="h-100">
-              <input class="search-box pl-4" id="search-query" name="s" type="search" placeholder="Type and hit enter...">
-            </form>
-            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
-          </div>
-        </div>
+          <a target="_blank" href="https://twitter.com/keruru" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
         
       </div>
-    </nav>
-  </div>
-</header>
-<!-- /navigation -->
-
-<section>
-  <div class="container-fluid">
-    <div class="post">
-      <img src="https://delightful-moss-0ff592e00.azurestaticapps.net/" class="img-fluid w-100" alt="Test Contents">
-      <div class="post-content">
-        <div class="post-date">
-          <span>30</span>
-          <span>Jun</span>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Test Contents</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jun 30, 2020
         </div>
-        <h2 class="post-title">Test Contents</h2>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section-sm">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h1 class="mb-4">Test Contents</h1>
-        <div class="content"><h1 id="azure-static-web-apps-preview">Azure Static Web Apps Preview</h1>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <h1 id="azure-static-web-apps-preview">Azure Static Web Apps Preview</h1>
 <p>Preview版を試しに使ってみたよ。</p>
 <p>お試しは<a href="https://docs.microsoft.com/ja-jp/azure/static-web-apps/publish-hugo">チュートリアル</a>が公式にあるのでそのまんま実施してみた感じ。（テーマはちょっと面白そうなのを<a href="https://themes.gohugo.io/">Hugo Themes</a>から持ってきた。</p>
 <h2 id="コンテンツはローカル生成">コンテンツはローカル生成</h2>
@@ -145,55 +85,13 @@ Preview PreviewではあくまでPreviewなので自ドメインでの運用は�
 <p>PreviewではあくまでPreviewなので自ドメインでの運用は出来なさそう。かつ100MBまでと言う容量制限もあるので、自前のblogでお試しするのは諦めて、こうやってお試しコンテンツをこさえてみた感じ。</p>
 <h1 id="期待">期待</h1>
 <p>値段もまだ出てきてはいないけれど、Staticなサイトって事もあるのでリーズナブルに提供されそう。それ次第では利用してみてもいいかなぁ、と思う。</p>
-</div>
 
-        <div class="text-center mt-5">
-          <ul class="list-inline post-meta d-inline-block mr-4">
-            <li class="list-inline-item"><i class="ti-tag"></i></li>
-            
-          </ul>
-          <span><i class="ti-user mr-2"></i><a
-              href="/author//"></a></span>
-        </div>
-      </div>
     </div>
-  </div>
-</section>
+    <div class="post-footer">
+      
+    </div>
+  </article>
 
-
-
-<footer class="py-4">
-  <div class="container text-center">
-    <p>Keruru</p>
-  </div>
-</footer>
-
-<!-- Search index -->
-
-<script>
-  var indexURL = "https://delightful-moss-0ff592e00.azurestaticapps.net/index.json"
-</script>
-
-
-
-<!-- JS Plugins -->
-
-<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/jQuery/jquery.min.js"></script>
-
-<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/bootstrap/bootstrap.min.js"></script>
-
-<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/search/fuse.min.js"></script>
-
-<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/search/mark.js"></script>
-
-<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/plugins/search/search.js"></script>
-
-
-<!-- Main Script -->
-
-<script src="https://delightful-moss-0ff592e00.azurestaticapps.net/js/script.min.js"></script>
-
-<!-- google analitycs -->
-</body>
-
+    </main>
+  </body>
 </html>
