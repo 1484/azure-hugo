@@ -5,22 +5,15 @@
     <link>https://delightful-moss-0ff592e00.azurestaticapps.net/post/</link>
     <description>Recent content in Posts on Azure Static Web Apps TEST</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Sat, 18 Jul 2020 13:36:03 +0900</lastBuildDate>
-    
-	<atom:link href="https://delightful-moss-0ff592e00.azurestaticapps.net/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://delightful-moss-0ff592e00.azurestaticapps.net/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vscodeでコンテンツ作成</title>
       <link>https://delightful-moss-0ff592e00.azurestaticapps.net/post/vscode%E3%81%A7%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E4%BD%9C%E6%88%90/</link>
       <pubDate>Sat, 18 Jul 2020 13:36:03 +0900</pubDate>
-      
       <guid>https://delightful-moss-0ff592e00.azurestaticapps.net/post/vscode%E3%81%A7%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E4%BD%9C%E6%88%90/</guid>
-      <description>vscodeでコンテンツを作成してみる 説明は不要かと思いますが、vscodeはMicrosoftが公開している統合環境Visual Studio Codeになります。 様々な言語にも対応し、Gitが使えたりEclipseを長年使ってきましたが最近はすっかりvscode首ったけです。
-hugoモジュール ありがたいことにHugoを使いやすくするmodule hugofy と言うのがあります。こちらをインストールするとvscodeの中から簡単にコンテンツ作成したりデモ用のサーバをコントロールしたりできます。勿論hugoは別途インストールが必要となりますが、いちいちterminalを上げなくても良い感じです。
-もっとも私はその機能は使っておらず古い人間なのでterminalが無いと死んじゃうのでterminalで操作するんですけどね。
-日記的使い方 Staticなサイトジェネレータってだけで別にblogに特化したツールでは無いので日記を記していくのに使ったって良いわけで、実際ブラウザでサイトに接続してWebフォームで編集する、っていうのもモブログ的に考えるとアリなんですが日々パソコンに触れる人（特に仕事ではなくとも毎日vscode使うような人)であれば、vscodeで日記を1日1ファイル編集していく感じでより楽チンかも知れませんね。</description>
+      <description>vscodeでコンテンツを作成してみる 説明は不要かと思いますが、vscodeはMicrosoftが公開している統合環境Visual Studio Codeになります。 様々な言語にも対応し、Gitが使えたりEclipseを長年使ってきましたが最近はすっかりvscode首ったけです。&#xA;hugoモジュール ありがたいことにHugoを使いやすくするmodule hugofy と言うのがあります。こちらをインストールするとvscodeの中から簡単にコンテンツ作成したりデモ用のサーバをコントロールしたりできます。勿論hugoは別途インストールが必要となりますが、いちいちterminalを上げなくても良い感じです。&#xA;もっとも私はその機能は使っておらず古い人間なのでterminalが無いと死んじゃうのでterminalで操作するんですけどね。&#xA;日記的使い方 Staticなサイトジェネレータってだけで別にblogに特化したツールでは無いので日記を記していくのに使ったって良いわけで、実際ブラウザでサイトに接続してWebフォームで編集する、っていうのもモブログ的に考えるとアリなんですが日々パソコンに触れる人（特に仕事ではなくとも毎日vscode使うような人)であれば、vscodeで日記を1日1ファイル編集していく感じでより楽チンかも知れませんね。</description>
     </item>
-    
   </channel>
 </rss>

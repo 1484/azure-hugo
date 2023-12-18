@@ -5,36 +5,22 @@
     <link>https://delightful-moss-0ff592e00.azurestaticapps.net/</link>
     <description>Recent content on Azure Static Web Apps TEST</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 30 Jun 2020 22:37:43 +0900</lastBuildDate>
-    
-	<atom:link href="https://delightful-moss-0ff592e00.azurestaticapps.net/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jul 2020 13:36:03 +0900</lastBuildDate>
+    <atom:link href="https://delightful-moss-0ff592e00.azurestaticapps.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vscodeでコンテンツ作成</title>
       <link>https://delightful-moss-0ff592e00.azurestaticapps.net/post/vscode%E3%81%A7%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E4%BD%9C%E6%88%90/</link>
       <pubDate>Sat, 18 Jul 2020 13:36:03 +0900</pubDate>
-      
       <guid>https://delightful-moss-0ff592e00.azurestaticapps.net/post/vscode%E3%81%A7%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E4%BD%9C%E6%88%90/</guid>
-      <description>vscodeでコンテンツを作成してみる 説明は不要かと思いますが、vscodeはMicrosoftが公開している統合環境Visual Studio Codeになります。 様々な言語にも対応し、Gitが使えたりEclipseを長年使ってきましたが最近はすっかりvscode首ったけです。
-hugoモジュール ありがたいことにHugoを使いやすくするmodule hugofy と言うのがあります。こちらをインストールするとvscodeの中から簡単にコンテンツ作成したりデモ用のサーバをコントロールしたりできます。勿論hugoは別途インストールが必要となりますが、いちいちterminalを上げなくても良い感じです。
-もっとも私はその機能は使っておらず古い人間なのでterminalが無いと死んじゃうのでterminalで操作するんですけどね。
-日記的使い方 Staticなサイトジェネレータってだけで別にblogに特化したツールでは無いので日記を記していくのに使ったって良いわけで、実際ブラウザでサイトに接続してWebフォームで編集する、っていうのもモブログ的に考えるとアリなんですが日々パソコンに触れる人（特に仕事ではなくとも毎日vscode使うような人)であれば、vscodeで日記を1日1ファイル編集していく感じでより楽チンかも知れませんね。</description>
+      <description>vscodeでコンテンツを作成してみる 説明は不要かと思いますが、vscodeはMicrosoftが公開している統合環境Visual Studio Codeになります。 様々な言語にも対応し、Gitが使えたりEclipseを長年使ってきましたが最近はすっかりvscode首ったけです。&#xA;hugoモジュール ありがたいことにHugoを使いやすくするmodule hugofy と言うのがあります。こちらをインストールするとvscodeの中から簡単にコンテンツ作成したりデモ用のサーバをコントロールしたりできます。勿論hugoは別途インストールが必要となりますが、いちいちterminalを上げなくても良い感じです。&#xA;もっとも私はその機能は使っておらず古い人間なのでterminalが無いと死んじゃうのでterminalで操作するんですけどね。&#xA;日記的使い方 Staticなサイトジェネレータってだけで別にblogに特化したツールでは無いので日記を記していくのに使ったって良いわけで、実際ブラウザでサイトに接続してWebフォームで編集する、っていうのもモブログ的に考えるとアリなんですが日々パソコンに触れる人（特に仕事ではなくとも毎日vscode使うような人)であれば、vscodeで日記を1日1ファイル編集していく感じでより楽チンかも知れませんね。</description>
     </item>
-    
     <item>
       <title>Test Contents</title>
       <link>https://delightful-moss-0ff592e00.azurestaticapps.net/test-contents/</link>
       <pubDate>Tue, 30 Jun 2020 22:37:43 +0900</pubDate>
-      
       <guid>https://delightful-moss-0ff592e00.azurestaticapps.net/test-contents/</guid>
-      <description>Azure Static Web Apps Preview Preview版を試しに使ってみたよ。
-お試しはチュートリアルが公式にあるのでそのまんま実施してみた感じ。（テーマはちょっと面白そうなのをHugo Themesから持ってきた。
-コンテンツはローカル生成 コンテンツを生成するHugo環境を何処かで回すCI/CDをする訳ではなく、あくまでローカルで作成したstaticファイルをgitにpushした契機にAzure側へコンテンツがデリバリされるだけ。なので、手元にHugo環境を置きたくないって人はもうひと手間必要。
-それでも魅力 それでもAzureが用意するCDNが使えるのは強力すぎやん？ちょっと期待しちゃう。
-Preview PreviewではあくまでPreviewなので自ドメインでの運用は出来なさそう。かつ100MBまでと言う容量制限もあるので、自前のblogでお試しするのは諦めて、こうやってお試しコンテンツをこさえてみた感じ。
-期待 値段もまだ出てきてはいないけれど、Staticなサイトって事もあるのでリーズナブルに提供されそう。それ次第では利用してみてもいいかなぁ、と思う。</description>
+      <description>Azure Static Web Apps Preview Preview版を試しに使ってみたよ。&#xA;お試しはチュートリアルが公式にあるのでそのまんま実施してみた感じ。（テーマはちょっと面白そうなのをHugo Themesから持ってきた。&#xA;コンテンツはローカル生成 コンテンツを生成するHugo環境を何処かで回すCI/CDをする訳ではなく、あくまでローカルで作成したstaticファイルをgitにpushした契機にAzure側へコンテンツがデリバリされるだけ。なので、手元にHugo環境を置きたくないって人はもうひと手間必要。&#xA;それでも魅力 それでもAzureが用意するCDNが使えるのは強力すぎやん？ちょっと期待しちゃう。&#xA;Preview PreviewではあくまでPreviewなので自ドメインでの運用は出来なさそう。かつ100MBまでと言う容量制限もあるので、自前のblogでお試しするのは諦めて、こうやってお試しコンテンツをこさえてみた感じ。&#xA;期待 値段もまだ出てきてはいないけれど、Staticなサイトって事もあるのでリーズナブルに提供されそう。それ次第では利用してみてもいいかなぁ、と思う。</description>
     </item>
-    
   </channel>
 </rss>
