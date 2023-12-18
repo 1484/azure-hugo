@@ -10,7 +10,7 @@ paginate = 5
   description = "ここはAzure Static Web Appsをお試ししているサイトです。"
   [[params.social]]
     name = "github"
-    url = "https://github.com/1484"
+    url = "https://github.com/1484/azure-hugo/"
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/keruru"
