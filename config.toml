@@ -1,13 +1,13 @@
 ######################## default configuration ####################
 baseURL = "https://delightful-moss-0ff592e00.azurestaticapps.net/"
-title = "Azure Static Web Apps TEST"
+title = "Keruru Diary"
 languageName = "jp"
 theme = "m10c"
 paginate = 5
 
 [params]
   author = "Keruru"
-  description = "ここはAzure Static Web Appsをお試ししているサイトです。"
+  description = "ここはAzure Static Web Appsをお試ししている日記サイトです。"
   [[params.social]]
     name = "github"
     url = "https://github.com/1484/azure-hugo/"
